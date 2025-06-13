@@ -1,6 +1,8 @@
-# 📝 TaskMate - A Simple Task Management App
+# 🧪 Flutter Developer Test Task – FGF Solutions
 
-TaskMate is a clean and modern Flutter application that helps you manage your daily tasks with ease. Add, view, complete, and delete tasks—all in one smooth interface.
+## 📝 Project Name: **TaskMate** – A Mini Task Management App
+
+TaskMate is a simple and clean task management Flutter app built as part of the FGF Solutions Flutter Developer test assignment. It allows users to add, manage, and view tasks with essential features like completion tracking and due dates.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3d464217-149c-4812-9991-c53ab3850fd3" width="250"/>
@@ -13,7 +15,6 @@ TaskMate is a clean and modern Flutter application that helps you manage your da
 ## 🚀 Features
 
 - ✅ Add new tasks with title, description, and due date
-- 📆 View due dates, creation time, and days left
 - 📋 Organize tasks by **Pending** and **Completed**
 - 🗑️ Swipe to delete tasks
 - ℹ️ Long press to view full task details
@@ -31,16 +32,22 @@ TaskMate is a clean and modern Flutter application that helps you manage your da
 
 ## 🛠 Tech Stack
 
-- **Flutter** 💙
-- **Provider** for state management
-- **Intl** package for date formatting
-- Clean and modular architecture
+
+- **Flutter Version:** 3.x
+- **Architecture:** MVVM (Model-View-ViewModel)
+- **State Management:** [`Provider`](https://pub.dev/packages/provider)
+- **Design:** Material Design
+- **Date Formatting:** [`intl`](https://pub.dev/packages/intl)
+- **Persistence:** [`Shared Prefrences`](https://pub.dev/packages/shared_preferences)
 
 ---
 
-## 📦 Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/taskmate.git
-   cd taskmate
+## 📂 Folder Structure
+
+lib/
+├── models/ # Task model
+├── viewmodels/ # Task ViewModel using Provider
+├── screens/ # UI screens: Home, AddTask
+├── widgets/ # TaskCard, Widget for Details 
+├── main
