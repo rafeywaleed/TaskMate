@@ -4,12 +4,6 @@
 
 TaskMate is a simple and clean task management Flutter app built as part of the FGF Solutions Flutter Developer test assignment. It allows users to add, manage, and view tasks with essential features like completion tracking and due dates.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3d464217-149c-4812-9991-c53ab3850fd3" width="250"/>
-  <img src="https://github.com/user-attachments/assets/17d87328-ce27-40c5-a4c7-eebb28101232" width="250"/>
-  <img src="https://github.com/user-attachments/assets/a055ac61-333b-4702-af4f-37843d26ddec" width="250"/>
-</p>
-
 ---
 
 ## 🚀 Features
@@ -43,11 +37,4 @@ TaskMate is a simple and clean task management Flutter app built as part of the 
 ---
 
 
-## 📂 Folder Structure
 
-lib/
-├── models/ # Task model
-├── viewmodels/ # Task ViewModel using Provider
-├── screens/ # UI screens: Home, AddTask
-├── widgets/ # TaskCard, Widget for Details 
-├── main
