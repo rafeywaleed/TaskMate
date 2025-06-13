@@ -17,6 +17,8 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
+        scrolledUnderElevation: 0,
         title: const Text('TaskMate',
             style: TextStyle(fontWeight: FontWeight.bold)),
         leading: const Icon(Icons.add_task_rounded, color: Colors.black54),

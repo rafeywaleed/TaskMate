@@ -54,8 +54,9 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        scrolledUnderElevation: 0,
         title: const Text('New Task'),
-        elevation: 0.5,
+        elevation: 0,
       ),
       backgroundColor: Colors.grey[100],
       body: SingleChildScrollView(
@@ -94,7 +95,8 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        maxLines: 3,
+                        minLines: 1,
+                        maxLines: 8,
                         onSaved: (val) => description = val ?? '',
                       ),
                       SizedBox(height: height * 0.02),
